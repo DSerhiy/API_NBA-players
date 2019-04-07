@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: rgb(155, 170, 175);
+  
+}
+
+header img {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 15px;
+  width: 300px;
+  
+  .card-header {
+    font-weight: 700;
+  }
+}
